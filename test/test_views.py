@@ -15,4 +15,4 @@ class FlaskTestCase(unittest.TestCase):
 
     def test_msg_with_output(self):
         rv = self.app.get('/?output=json')
-        self.assertEqual(b'{ "name":"Beata", "mgs":Hello World!"}', rv.data)
+        self.assertEqual(b'{ "name":"Lukasz", "mgs":Greetings from DevOps class!"}', rv.data)
