@@ -1,1 +1,1 @@
-flask
+flaskprometheus_client
